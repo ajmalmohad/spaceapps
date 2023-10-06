@@ -15,8 +15,6 @@ function App() {
         <Route path="/my-projects" Component={MyProjects} /> 
         <Route path="/create-project" Component={CreateProject} /> 
         <Route path="/manage-project" Component={ManageProjects} /> 
-
-        
       </Routes>
     </>
   )
