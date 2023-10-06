@@ -5,12 +5,14 @@ import MyProfile from './pages/MyProfile'
 import CreateProject from './pages/CreateProject'
 import ManageProjects from './pages/ManageProjects'
 import MyProjects from './pages/MyProjects'
+import Login from './pages/Login'
 
 function App() {
   return (
     <>
       <Routes>
         <Route path="/" Component={Discover} /> 
+        <Route path="/login" Component={Login} /> 
         <Route path="/my-profile" Component={MyProfile} /> 
         <Route path="/my-projects" Component={MyProjects} /> 
         <Route path="/create-project" Component={CreateProject} /> 
