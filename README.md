@@ -1,6 +1,6 @@
 # Spaceapps
 
-Challege:
+Challenge:
 A Open Science Projects Marketplace
 
 ## How to run

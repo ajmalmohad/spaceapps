@@ -1,8 +1,7 @@
 import React from "react";
-import "./ProjectCard.css";
+
 import {
   Card,
-  CardBody,
   CardFooter,
   CardHeader,
   Image,
