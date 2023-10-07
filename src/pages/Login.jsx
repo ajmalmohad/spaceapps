@@ -17,6 +17,7 @@ function Login() {
               console.log("Logged In");
               setIsLoggedIn(true);
             } else {
+              console.log(user);
               console.log("Logged out");
               setIsLoggedIn(false);
             }

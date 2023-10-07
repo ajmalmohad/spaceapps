@@ -3,12 +3,12 @@ import { getAuth, signInWithRedirect, GoogleAuthProvider } from "firebase/auth";
 
 // Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyA-W1z0PX0bu-qktqotQulmIv15eru5Q0s",
-  authDomain: "openspace-20548.firebaseapp.com",
-  projectId: "openspace-20548",
-  storageBucket: "openspace-20548.appspot.com",
-  messagingSenderId: "953397408854",
-  appId: "1:953397408854:web:e47a07c3ea778f8a1c37f7"
+  apiKey: "AIzaSyA8nb8slEsJgf9njD5EQMf2xsCj7quQsKo",
+  authDomain: "spaceapps-ae2b9.firebaseapp.com",
+  projectId: "spaceapps-ae2b9",
+  storageBucket: "spaceapps-ae2b9.appspot.com",
+  messagingSenderId: "595883067510",
+  appId: "1:595883067510:web:685584d428e19a35533757"
 };
 
 // Initialize Firebase

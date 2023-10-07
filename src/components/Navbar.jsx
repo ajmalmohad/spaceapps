@@ -1,17 +1,22 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+import { Link, redirect } from 'react-router-dom'
 import Logo from './../assets/OpenSpace.png'
 import './css/Navbar.css'
 import { getAuth, signOut } from "firebase/auth";
+import { useAppContext } from '../context/AuthContext';
 import { Avatar, Dropdown, DropdownTrigger, DropdownMenu, DropdownItem } from '@nextui-org/react'
+
 
 function Navbar(props) {
 
+  let { setIsLoggedIn } = useAppContext();
   let logOut = () => {
     console.log("hi");
     const auth = getAuth();
     signOut(auth).then(() => {
       console.log("Logged Out");
+      setIsLoggedIn(false);
+      redirect('/login');
     }).catch((error) => {
       console.log("Error Logging Out");
     });
