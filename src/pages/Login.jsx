@@ -3,6 +3,9 @@ import { signInWithGoogle } from '../firebase/firebase'
 import { onAuthStateChanged } from "firebase/auth"
 import { auth } from '../firebase/firebase';
 import { useAppContext } from '../context/AuthContext';
+import './css/Login.css'
+import Logo from './../assets/OpenSpace.png'
+import Google from './../assets/Google.png'
 
 function Login() {
 
@@ -22,7 +25,12 @@ function Login() {
 
   return (
     <div className='Login'>
-        <button onClick={signInWithGoogle}>Login</button>
+      <div className='navbar'>
+        <img src={Logo} alt='Logo'/>
+      </div>
+      <div className='content'>
+        <button onClick={signInWithGoogle}><img src={Google} /> Sign In With Google </button>
+      </div>
     </div>
   )
 }

@@ -1,0 +1,33 @@
+.Login{
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(90deg, #000000, #001C3B);
+}
+
+.Login .navbar{
+    padding:20px 10px;
+    height: 70px;
+}
+
+.Login .navbar img{
+    height: 30px;
+}
+
+.Login .content{
+    height: calc(100vh - 70px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Login .content button{
+    display: flex;
+    align-items: center;
+    padding: 0px 30px;
+    border-radius: 10px;
+    font-size: 18px;
+}
+
+.Login .content button img{
+    height: 60px;
+}
