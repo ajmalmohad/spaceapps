@@ -3,7 +3,7 @@ import './css/Discover.css'
 import {Input} from "@nextui-org/react";
 import {BiSearch} from 'react-icons/bi';
 import {Chip} from "@nextui-org/react";
-import ProjectCard from '../components/ProjectCard';
+import ProjectTab from '../components/ProjectTab';
 
 function Discover() {
   return (
@@ -27,7 +27,7 @@ function Discover() {
           </div>
           
           <div className='projects w-100 gap-2 grid grid-cols-3 grid-rows-2 py-8'>
-            <ProjectCard />
+            <ProjectTab />
           </div>
       </div>
     </div>
