@@ -8,6 +8,7 @@ import MyProjects from './pages/MyProjects'
 import Login from './pages/Login'
 import AntiProtected from './components/AntiProtected' 
 import Protected from './components/Protected'
+import ProjectDetails from './pages/ProjectDetails'
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <Route path="/my-projects" element={<Protected><MyProjects/></Protected>} /> 
         <Route path="/create-project" element={<Protected><CreateProject/></Protected>} /> 
         <Route path="/my-collaborations" element={<Protected><ManageProjects/></Protected>} /> 
+        <Route path="/project" element={<Protected><ProjectDetails/></Protected>} /> 
       </Routes>
     </div>
   )
