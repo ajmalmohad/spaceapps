@@ -6,12 +6,14 @@ import {Avatar} from "@nextui-org/react";
 function ProjectTab() {
   return (
     <Card isFooterBlurred className="w-full h-[300px] col-span-1">
+      
       <Image
         removeWrapper
         alt="Travel to space"
         className="z-0 w-full h-full object-cover"
         src={Cover}
       />
+      
       <CardFooter className="absolute bg-black/40 bottom-0 z-10 border-t-1 border-default-600 dark:border-default-100">
         <div className='pr-2'>
           <Avatar src="https://i.pravatar.cc/150?u=a042581f4e29026024d" />

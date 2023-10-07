@@ -28,6 +28,8 @@ function Discover() {
           
           <div className='projects w-100 gap-2 grid grid-cols-3 grid-rows-2 py-8'>
             <ProjectTab />
+            <ProjectTab />
+            <ProjectTab />
           </div>
       </div>
     </div>
