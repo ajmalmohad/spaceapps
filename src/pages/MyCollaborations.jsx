@@ -1,6 +1,5 @@
 import React from 'react'
 import {Input} from "@nextui-org/react";
-import {SearchIcon} from './../assets/SearchIcon.svg';
 import CollaborateTab from '../components/CollaborateTab';
 
 function MyCollaborations() {
@@ -11,10 +10,6 @@ function MyCollaborations() {
         type="search"
         defaultValue="Search for your collaborations"
         className="relative max-w-[450px]"
-        startContent={<Image
-        removeWrapper
-        className="absolute top-1/2 transform -translate-y-1/2"
-        src={SearchIcon}/>}
         />
         <div className='flex flex-wrap mt-10 items-center justify-center gap-20'>
 
