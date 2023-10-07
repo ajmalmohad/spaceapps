@@ -1,9 +1,13 @@
-import React from 'react'
+import React from "react";
+import { Link } from "react-router-dom";
+import ProjectCard from "../components/ProjectCard.jsx";
 
 function MyProjects() {
   return (
-    <div className='MyProjects'>MyProjects</div>
-  )
+    <div className="myProjects">
+      <ProjectCard />
+    </div>
+  );
 }
 
-export default MyProjects
+export default MyProjects;
