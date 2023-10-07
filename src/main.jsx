@@ -7,7 +7,7 @@ import { AppContextProvider } from './context/AuthContext.jsx';
 import {NextUIProvider} from '@nextui-org/react'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-  <NextUIProvider>
+  <NextUIProvider className='dark'>
     <AppContextProvider>
       <BrowserRouter>
         <App />
