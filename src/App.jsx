@@ -19,7 +19,7 @@ function App() {
         <Route path="/my-profile" element={<Protected><MyProfile/></Protected>} /> 
         <Route path="/my-projects" element={<Protected><MyProjects/></Protected>} /> 
         <Route path="/create-project" element={<Protected><CreateProject/></Protected>} /> 
-        <Route path="/my-collaborations" element={<MyCollaborations/>} /> 
+        <Route path="/my-collaborations" element={<Protected><MyCollaborations/></Protected>} /> 
         <Route path="/project" element={<Protected><ProjectDetails/></Protected>} /> 
       </Routes>
     </div>
