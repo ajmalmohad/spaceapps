@@ -1,5 +1,8 @@
 # Spaceapps
 
+Challege:
+A Open Science Projects Marketplace
+
 ## How to run
 - Fork the repo
 - Clone the forked repo
