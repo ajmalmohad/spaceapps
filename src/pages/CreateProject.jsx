@@ -89,9 +89,8 @@ function CreateProject() {
         />
       </div>
 
-      <div className='mt-10 flex w-100 justify-end'>
-        <Button color="success" className='mr-4'>Save</Button>  
-        <Button color="danger">Delete</Button>  
+      <div className='mt-10 flex w-100 justify-end'>  
+        <Button color="success">Submit</Button>  
       </div>
 
     </div>
