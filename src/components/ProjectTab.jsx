@@ -1,9 +1,9 @@
 import React from 'react'
 import Cover from './../assets/Demo.jpg'
-import {Card, CardFooter, Image, Button} from "@nextui-org/react";
+import {Card, CardFooter, Image} from "@nextui-org/react";
 import {Avatar} from "@nextui-org/react";
 
-function ProjectCard() {
+function ProjectTab() {
   return (
     <Card isFooterBlurred className="w-full h-[300px] col-span-1">
       <Image
@@ -27,4 +27,4 @@ function ProjectCard() {
   )
 }
 
-export default ProjectCard
+export default ProjectTab
