@@ -2,16 +2,20 @@ import React, { useEffect } from 'react'
 import { signInWithGoogle } from '../firebase/firebase'
 import { onAuthStateChanged } from "firebase/auth"
 import { auth } from '../firebase/firebase';
+import { useAppContext } from '../context/AuthContext';
 
 function Login() {
+
+    let { setIsLoggedIn } = useAppContext();
 
     useEffect(()=>{
         onAuthStateChanged(auth, (user) => {
             if (user) {
-              const uid = user.uid;
-              console.log("uid", uid)
+              console.log("Logged In");
+              setIsLoggedIn(true);
             } else {
-              console.log("user is logged out")
+              console.log("Logged out");
+              setIsLoggedIn(false);
             }
           });
     }, []);
