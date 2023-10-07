@@ -11,16 +11,16 @@ import Protected from './components/Protected'
 
 function App() {
   return (
-    <>
+    <div className='App'>
       <Routes>
         <Route path="/" element={<Protected><Discover/></Protected>} /> 
         <Route path="/login" element={<AntiProtected><Login/></AntiProtected>} /> 
         <Route path="/my-profile" element={<Protected><MyProfile/></Protected>} /> 
         <Route path="/my-projects" element={<Protected><MyProjects/></Protected>} /> 
         <Route path="/create-project" element={<Protected><CreateProject/></Protected>} /> 
-        <Route path="/manage-project" element={<Protected><ManageProjects/></Protected>} /> 
+        <Route path="/my-collaborations" element={<Protected><ManageProjects/></Protected>} /> 
       </Routes>
-    </>
+    </div>
   )
 }
 

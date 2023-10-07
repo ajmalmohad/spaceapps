@@ -1,0 +1,11 @@
+.Navbar{
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+}
+
+.Navbar img{
+    height: 32px;
+}
