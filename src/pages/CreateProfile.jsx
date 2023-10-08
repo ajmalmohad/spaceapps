@@ -1,14 +1,12 @@
 import React from 'react';
-import CreateProfile from '../components/CreateProfile';
+import ProfileForm from '../components/ProfileForm';
 import { Avatar } from '@nextui-org/react';
-import Navbar from '../components/Navbar';
 import { Button } from '@nextui-org/react';
 import { CameraIcon } from '../components/CameraIcon';
 
-function Profiles() {
+function CreateProfile() {
   return (
     <div>
-      <Navbar />
       <div className="p-2">
         <Avatar src="https://i.pravatar.cc/150?u=a04258114e29026708c" className="w-32 h-32 text-large mx-auto mb-3" />
         <div className="flex flex-col items-center"> 
@@ -16,7 +14,7 @@ function Profiles() {
             Take a photo
           </Button>
         </div>
-        <CreateProfile />
+        <ProfileForm />
         <div className="text-center ">
           <Button color="primary">
             Submit
@@ -27,4 +25,4 @@ function Profiles() {
   );
 }
 
-export default Profiles;
+export default CreateProfile;

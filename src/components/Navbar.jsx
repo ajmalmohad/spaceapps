@@ -37,7 +37,8 @@ function Navbar(props) {
           </DropdownTrigger>
           <DropdownMenu aria-label="Static Actions">
             <DropdownItem key="profile">Profile</DropdownItem>
-            <DropdownItem key="create"><Link to="/create-project">Create Project</Link></DropdownItem>
+            <DropdownItem key="create-project"><Link to="/create-project">Create Project</Link></DropdownItem>
+            <DropdownItem key="create-profile"><Link to="/create-profile">Create Profile</Link></DropdownItem>
             <DropdownItem key="delete" className="text-danger" color="danger" onClick={logOut}>
               Sign out
             </DropdownItem>
