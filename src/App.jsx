@@ -3,12 +3,14 @@ import {Routes, Route} from 'react-router-dom'
 import Discover from './pages/Discover'
 import MyProfile from './pages/MyProfile'
 import CreateProject from './pages/CreateProject'
+import ManageProjects from './pages/ManageProjects'
 import MyProjects from './pages/MyProjects'
 import Login from './pages/Login'
 import AntiProtected from './components/AntiProtected' 
 import Protected from './components/Protected'
 import ProjectDetails from './pages/ProjectDetails'
 import MyCollaborations from './pages/MyCollaborations'
+import CreateProfile from './pages/CreateProfile'
 
 function App() {
   return (
@@ -21,6 +23,7 @@ function App() {
         <Route path="/create-project" element={<Protected><CreateProject/></Protected>} /> 
         <Route path="/my-collaborations" element={<Protected><MyCollaborations/></Protected>} /> 
         <Route path="/project" element={<Protected><ProjectDetails/></Protected>} /> 
+        <Route path="/create-profile" element={<Protected><CreateProfile/></Protected>} />
       </Routes>
     </div>
   )
