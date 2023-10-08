@@ -23,7 +23,7 @@ function App() {
         <Route path="/create-project" element={<Protected><CreateProject/></Protected>} /> 
         <Route path="/my-collaborations" element={<Protected><ManageProjects/></Protected>} /> 
         <Route path="/project" element={<Protected><ProjectDetails/></Protected>} /> 
-        <Route path="/create-profile" element={<Profiles/>} />
+        <Route path="/create-profile" element={<Protected><Profiles/></Protected>} />
       </Routes>
     </div>
   )
