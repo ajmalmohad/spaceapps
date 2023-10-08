@@ -10,6 +10,7 @@ import AntiProtected from './components/AntiProtected'
 import Protected from './components/Protected'
 import ProjectDetails from './pages/ProjectDetails'
 import CreateProfile from './pages/CreateProfile'
+import MyCollaborations from './pages/MyCollaborations'
 
 
 function App() {
