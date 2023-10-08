@@ -21,11 +21,11 @@ function ProjectCard({
   return (
     <div className="ProjectLink">
       <a href={projectLink}>
-        <Card isFooterBlurred className="relative w-full h-[300px] w-[400px] col-span-1">
+        <Card isFooterBlurred className="relative w-full h-[300px] col-span-1">
           <Image
             removeWrapper
             alt="Travel to space"
-            className="absolute z-0 object-cover"
+            className="absolute z-0 top-0 w-full h-full object-cover"
             src={Demo}
           />
             
